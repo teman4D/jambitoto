@@ -1,0 +1,56 @@
+.navbar-fixed-top {
+    background-color: #002122;
+    border: #002122;
+
+
+}
+
+body {
+background: #0b0b0b url("https://1.bp.blogspot.com/-r5Y4FudcJiI/XqFns2EDKwI/AAAAAAAAACc/yM1dLC_RAWIO-FuoEJB5DkPa3JUvfmStgCLcBGAsYHQ/s1600/jambitoto.jpg") center no-repeat !important;
+background-size: 100% 100% !important;
+background-attachment: fixed !important;
+}
+
+#footer {
+background-color: rgba(0, 16, 16, 0.60) !important;
+
+}
+
+.btn.btn-theme {
+ background: rgba(255, 255, 255);
+background: -moz-linear-gradient(top, rgba(255,0,0) 0%, rgba(236,36,36) 100%) !important;
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,0,0)), color-stop(100%, rgba(236,36,36))) !important;
+background: -webkit-linear-gradient(top, #fff600 0%, #c39602 100%) !important;
+background: -o-linear-gradient(top, rgba(255,0,0) 0%, rgba(236,36,36) 100%) !important;
+background: -ms-linear-gradient(top, rgba(255,0,0) 0%, rgba(236,36,36) 100%) !important;
+background: linear-gradient(to bottom, rgba(0, 47, 81, 1) 0%, rgba(0, 47, 81, 1) 100%) !important
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c9ad6f', endColorstr='#e3d6aa', GradientType=0 ) !important;
+}
+
+h4 {
+	color: #dadada !important;
+
+}
+
+.blog-sidebar .nav.menu > li > a > i {
+    
+    color: #ffffff82 !important;
+}
+
+.blog-sidebar .nav.menu > li > a {
+    color: #ffffff !important;
+    border-bottom: 1px solid #ffffff82 !important;
+}    
+
+.section .container {
+    background: rgba(0, 16, 16, 0.60) !important;
+
+}
+
+.news-head {
+    background: -webkit-linear-gradient(top, #fff600 0%, #c39602 100%) !important;
+    height: 35px;
+}
+
+.news-body {
+    background: #001010}
