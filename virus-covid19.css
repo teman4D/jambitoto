@@ -53,7 +53,7 @@ h4 {
 }
 
 .news-body {
-    background: #001010}
+    background: -webkit-linear-gradient(top, #fff600 0%, #c39602 100%) !important;
 
 }
 
