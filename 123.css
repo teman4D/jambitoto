@@ -1,3 +1,9 @@
+body {
+    background: #0b0b0b url('https://1.bp.blogspot.com/-r5Y4FudcJiI/XqFns2EDKwI/AAAAAAAAACc/yM1dLC_RAWIO-FuoEJB5DkPa3JUvfmStgCLcBGAsYHQ/s1600/jambitoto.jpg') center center no-repeat !important;
+    background-position: top !important;
+    background-attachment: fixed !important;
+}
+
 .navbar-fixed-top {
     background: #002122 !important;
     max-width: 1170px;
