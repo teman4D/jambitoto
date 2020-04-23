@@ -69,6 +69,11 @@ color: rgba(0, 16, 16, 0.60);
 
 }  
 
+.blog-sidebar .nav.menu > li > a {
+    color: #dadada !important;
+    border-bottom: 1px solid #ffffffb0 !important;
+}  
+
 .section .container {
     background: rgba(0, 16, 16, 0.60) !important;
 
