@@ -16,7 +16,7 @@ body {
 
 .news-body {
     background: #f6e700 !important;
-    border-bottom: 1px #0084dc solid;
+    border-bottom: 1px #f6e700 solid;
     border-radius: 0px 0px 10px 0px;
 }
 
@@ -27,7 +27,7 @@ ul.newsticker > li > a {
 
 .news-head {
     background: #f6e700 !important;
-    border-bottom: 1px #ffffff solid;
+    border-bottom: 1px #f6e700 solid;
     border-radius: 0px 0px 0px 10px;
 }
 
