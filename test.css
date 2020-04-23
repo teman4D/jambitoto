@@ -1,0 +1,672 @@
+oh1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 > i {
+   text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.53);
+}
+
+ul#SocialMediaIcon {
+    width:160px;
+    padding:5px;
+    position:fixed;
+    top: 110px;
+    left: -11px;
+    z-index:1999;
+}
+#SocialMediaIcon li {
+	cursor:pointer;
+	height:48px;
+	position:relative;
+	list-style-type:none;
+}
+#SocialMediaIcon .icon {
+	background-color:rgba(217,30,118,.42);
+	border-radius:10px;
+	display:block;
+	color:#141414;
+	float:none;
+	height:50px;
+	line-height:48px;
+	margin:5px 0;
+	position:relative;
+	text-align:left;
+	text-indent:50px;
+	text-shadow:#333 0 1px 0;
+	white-space:nowrap;
+	width:50px;
+	z-index:5;
+	-webkit-transition:width .25s ease-in-out,background-color .25s ease-in-out;
+	-moz-transition:width .25s ease-in-out,background-color .25s ease-in-out;
+	-o-transition:width .25s ease-in-out,background-color .25s ease-in-out;
+	transition:width .25s ease-in-out,background-color .25s ease-in-out;
+	-webkit-box-shadow:rgba(0,0,0,.28) 0 2px 3px;
+	-moz-box-shadow:rgba(0,0,0,.28) 0 2px 3px;
+	-o-box-shadow:rgba(0,0,0,.28) 0 2px 3px;
+	box-shadow:rgba(0,0,0,.28) 0 2px 3px;
+	text-decoration:none;
+}
+#SocialMediaIcon span:hover {
+	visibility:hidden;
+}
+#SocialMediaIcon span {
+	display:block;
+	top: 15px;
+	position:absolute;
+	left: 90px;
+}
+#SocialMediaIcon .icon {
+	color:#fafafa;
+	overflow:hidden;
+}
+#SocialMediaIcon .wechat {
+	background:#999 url('../images/wechat.png') 0 0 no-repeat;
+	background-color: #0D3972;
+}
+#SocialMediaIcon .sms {
+	background:#999 url('../images/sms.png') 0 0 no-repeat;
+	background-color: #0D3972;
+}
+#SocialMediaIcon .line {
+	background:#999 url('../images/line.png') 0 0 no-repeat;
+	background-color: #0D3972;
+}
+#SocialMediaIcon .blackberry {
+	background: #999  url('../images/bbm.png') 0 0 no-repeat;
+	background-color: rgb(231, 205, 121);
+        background-opacity: 0.9;
+}
+#SocialMediaIcon .yahoo {
+	background: #999 url('../images/yahoo.png') 0 0 no-repeat;
+	background-color: #0D3972;
+}
+#SocialMediaIcon .phone {
+	background: #999 url('../images/phone.png') 0 0 no-repeat;
+	background-color: #0D3972;
+}
+#SocialMediaIcon .fb {
+	background: #999 url('../linebwin/fb.png') 0 0 no-repeat;
+	background-color: rgb(113, 113, 113);
+}
+#SocialMediaIcon .ig {
+	background: #999 url('../linebwin/ig.png') 0 0 no-repeat;
+	background-color: rgb(113, 113, 113);
+}
+#SocialMediaIcon .tw {
+	background: #999 url('../linebwin/tw.png') 0 0 no-repeat;
+	background-color: rgb(113, 113, 113);
+}
+#SocialMediaIcon li:hover .icon {
+	width:155px;
+}
+#SocialMediaIcon li:hover .icon {
+	/* background-color:#d91e76; */
+}
+#SocialMediaIcon fb:hover .wechat{
+	background:#999 url('../images/wechat.png') 0 0 no-repeat;
+	background-color: #0D3972;
+}
+#SocialMediaIcon li:hover .sms {
+	background:#999 url('../images/sms.png') 0 0 no-repeat;
+	background-color: #0D3972;
+}
+#SocialMediaIcon li:hover .line {
+	background:#999 url('../images/line.png') 0 0 no-repeat;
+	background-color: #0D3972;
+}
+#SocialMediaIcon li:hover .blackberry {
+	background:#999 url('../images/bbm.png') 0 0 no-repeat;
+	background-color: #d9aa0c;
+}
+#SocialMediaIcon li:hover .yahoo {
+	background:#999 url('../images/yahoo.png') 0 0 no-repeat;
+	background-color: #0D3972;
+}
+#SocialMediaIcon li:hover .phone {
+	background:#999 url('../images/phone.png') 0 0 no-repeat;
+	background-color: #0D3972;
+}
+#SocialMediaIcon li:hover .fb {
+	background:#999 url('../linebwin/fb.png') 0 0 no-repeat;
+	background-color: rgb(204, 204, 204);
+}
+#SocialMediaIcon li:hover .ig {
+	background: url('../linebwin/ig.png') 0 0 no-repeat;
+	background-color: rgb(204, 204, 204);
+}
+#SocialMediaIcon li:hover .tw {
+	background:#999 url('../linebwin/tw.png') 0 0 no-repeat;
+	background-color: rgb(204, 204, 204);
+}
+#SocialMediaIcon .icon:active {
+	bottom:-2px;
+	-webkit-box-shadow:none;
+	-moz-box-shadow:none;
+	-o-box-shadow: none;
+}@media only screen and (max-width: 800px) {#SocialMediaIcon{display:none;}}
+
+body {
+    background: #000000 url('../slider/linetogel/LINETOGEL-BACKGROUND.jpg') center center no-repeat !important;
+    background-position: top !important;
+    background-attachment: fixed !important;
+}
+
+.navbar-fixed-top {
+    background: rgba(23,32,71,0.5) !important;
+    max-width: 1170px;
+    margin: auto;
+}
+
+.breadcrumbs {
+    padding: 40px 0 !important;
+}
+
+.news-body {
+    background: rgba(23,32,71,0.5) !important;
+    border-bottom: 1px #0084dc solid;
+    border-radius: 0px 0px 10px 0px;
+}
+
+ul.newsticker > li > a {
+  text-transform:  uppercase !important;
+  color: #8dfbff;
+}
+
+.news-head {
+    background: rgba(23,32,71,0.5) !important;
+    border-bottom: 1px #0084dc solid;
+    border-radius: 0px 0px 0px 10px;
+}
+
+.news-head > h5 {
+  text-transform:  uppercase !important;
+  color: #8dfbff !important;
+}
+
+
+/* Minification failed. Returning unminified contents.
+(7972,28): run-time error CSS1038: Expected hex color, found '#8e00000'
+ */
+/**
+ * BxSlider v4.1.2 - Fully loaded, responsive content slider
+ * http://bxslider.com
+ *
+ * Written by: Steven Wanderski, 2014
+ * http://stevenwanderski.com
+ * (while drinking Belgian ales and listening to jazz)
+ *
+ * CEO and founder of bxCreative, LTD
+ * http://bxcreative.com
+ */
+
+
+.bank {
+	text-align: center;
+	width: 145px !important;
+    height: 74px !important;
+    padding: 0px !important;
+    background-color: rgba(0,0,0,0) !important;
+    border: none !important;
+    -webkit-border-radius: 0px !important;
+    -moz-border-radius: 0px !important;
+    -ms-border-radius: 0px !important;
+    -o-border-radius: 0px !important;
+    border-radius: 0px !important;
+    margin-left: 0px;
+}
+.bank img:first-child{
+    width: 12px !important;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 13px;
+}
+
+.bca {
+width: 168px !important;
+  height: 94px !important;
+background: url('../slider/linetogel/LINETOGEL-BANK-ONLINE-BCA.gif') 0px 0px no-repeat !important;
+}
+
+.mandiri {
+width: 168px !important;
+  height: 94px !important;
+background: url('../slider/linetogel/LINETOGEL-BANK-ONLINE-MANDIRI.gif') 0px 0px no-repeat !important;
+}
+
+.bri {
+width: 168px !important;
+  height: 94px !important;
+background: url('../slider/linetogel/LINETOGEL-BANK-ONLINE-BRI.gif') 0px 0px no-repeat !important;
+}
+
+.bni {
+width: 168px !important;
+  height: 94px !important;
+background: url('../slider/linetogel/LINETOGEL-BANK-ONLINE-BNI.gif') 0px 0px no-repeat !important;
+}
+
+.danamon {
+width: 168px !important;
+  height: 94px !important;
+background: url('../slider/linetogel/LINETOGEL-BANK-ONLINE-DANAMON.gif') 0px 0px no-repeat !important;
+}
+
+
+.bca.offline {
+width: 168px !important;
+  height: 94px !important;
+background: url('../slider/linetogel/LINETOGEL-BANK-OFFLINE-BCA.gif') 0px 0px no-repeat !important;
+}
+
+.mandiri.offline {
+width: 168px !important;
+  height: 94px !important;
+background: url('../slider/linetogel/LINETOGEL-BANK-OFFLINE-MANDIRI.gif') 0px 0px no-repeat !important;
+}
+
+.bri.offline {
+width: 168px !important;
+  height: 94px !important;
+background: url('../slider/linetogel/LINETOGEL-BANK-OFFLINE-BRI.gif') 0px 0px no-repeat !important;
+}
+
+.bni.offline {
+width: 168px !important;
+  height: 94px !important;
+background: url('../slider/linetogel/LINETOGEL-BANK-OFFLINE-BNI.gif') 0px 0px no-repeat !important;
+}
+
+.danamon.offline {
+width: 168px !important;
+  height: 94px !important;
+background: url('../slider/linetogel/LINETOGEL-BANK-OFFLINE-DANAMON.gif') 0px 0px no-repeat !important;
+}
+
+.bca.trouble {
+    width: 168px !important;
+    height: 94px !important;
+    background: url('../slider/linetogel/LINETOGEL-BANK-TROUBLE-BCA.gif') 0px 0px no-repeat !important;
+}
+
+.mandiri.trouble {
+    width: 168px !important;
+    height: 94px !important;
+background: url('../slider/linetogel/LINETOGEL-BANK-TROUBLE-MANDIRI.gif') 0px 0px no-repeat !important;
+}
+
+.bri.trouble {
+    width: 168px !important;
+    height: 94px !important;
+background: url('../slider/linetogel/LINETOGEL-BANK-TROUBLE-BRI.gif') 0px 0px no-repeat !important;
+}
+
+.bni.trouble {
+    width: 168px !important;
+    height: 94px !important;
+background: url('../slider/linetogel/LINETOGEL-BANK-TROUBLE-BNI.gif') 0px 0px no-repeat !important;
+}
+
+.danamon.trouble {
+    width: 168px !important;
+    height: 94px !important;
+background: url('../slider/linetogel/LINETOGEL-BANK-TROUBLE-DANAMON.gif') 0px 0px no-repeat !important;
+}
+
+.no-top-margin .uppercase {
+color: #e3c45d !important;
+
+}
+
+.col-3-x {
+  width: 33%;
+}
+
+.col-3 {
+  width: 33.33333%;
+}
+
+footer#footer {
+    background-color: transparent !important;
+    border-top: none;
+}
+
+footer#footer .footer-main {
+    padding: 0 0;
+    background: none;
+}
+
+footer#footer .footer-bottom {
+    background-color: transparent !important;
+    padding: 0px !important;
+}
+
+footer#footer .footer-bottom .copyright {
+	border-top: 1px #0084dc solid !important;
+	background: #08071fb8 !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+}
+
+.col-md-12 {
+	border-top: 1px #0084dc solid !important;
+    background: #111a2dc2 !important;
+}
+
+.section .container {
+    padding: 0 20px 0px 20px !important;
+	background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.44) 0%, rgba(0,0,0,0.3) 50%, rgba(0, 0, 0, 0.44) 100%) !important;
+}
+
+/***********************************/
+/************* BUTTONS *************/
+/***********************************/
+button.btn-theme, .btn.btn-theme {
+  border-width: 0 !important;
+  -webkit-transition: all 0.2s ease-out !important;
+  -moz-transition: all 0.2s ease-out !important;
+  transition: all 0.2s ease-out !important;
+  font-weight: 600 !important;
+  letter-spacing: 2px !important;
+    color: #ffffff !important;
+    padding: 7px 9px !important;
+    border-radius: 10px !important;
+    border: 1px solid #64d0e7 !important;
+    background: linear-gradient(to bottom, #3799ae 0%, #262643 50%, #3799ae 100%) !important;
+    text-shadow: -1px -1px 1px rgba(0,0,0,0.5) !important;
+}
+
+button.btn-theme:hover, .btn.btn-theme:hover {
+  color: #ffffff !important;
+  background-color: #11111d !important;
+  background: #11111d !important;
+}
+button.btn-small,
+.btn.btn-small {
+    border: 1px solid #64d0e7 !important;
+    background: linear-gradient(to bottom, #3799ae 0%, #262643 50%, #3799ae 100%) !important;
+    text-shadow: -1px -1px 1px rgba(0,0,0,0.5) !important;
+    color: #ffffff !important;
+}
+button.btn-small:hover,
+.btn.btn-small:hover {
+  color: #ffffff !important;
+  background-color: #11111d !important;
+  background: #11111d !important;
+}
+button.uppercase,
+.btn.uppercase {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 400;
+}
+button.divided,
+.btn.divided {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  padding-right: 15px;
+  border: 0;
+  position: relative;
+  -webkit-transition: all 0.15s ease-out;
+  -moz-transition: all 0.15s ease-out;
+  transition: all 0.15s ease-out;
+}
+button.divided .btn-side,
+.btn.divided .btn-side {
+  display: inline-block;
+  float: right;
+  background-color: #464646;
+  padding: 2px 10px;
+  position: absolute;
+  bottom: 0;
+  margin-left: 15px;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  font-size: 26px;
+}
+button.divided:focus, button.divided:hover,
+.btn.divided:focus,
+.btn.divided:hover {
+  background-color: #464646;
+}
+button.btn-bordered,
+.btn.btn-bordered {
+  background-color: transparent;
+  border: 3px solid white;
+  color: white;
+  padding: 8px 30px;
+}
+button.btn-bordered:hover,
+.btn.btn-bordered:hover {
+  background-color: #418bca;
+  border-color: transparent;
+}
+button.btn-lg,
+.btn.btn-lg {
+  font-weight: 700;
+}
+
+.btn-group.custom-navigation {
+  margin: 30px 0 20px;
+}
+.btn-group.custom-navigation button,
+.btn-group.custom-navigation .btn,
+.btn-group.custom-navigation button:focus,
+.btn-group.custom-navigation .btn:focus {
+  background-color: white;
+  border: 1px solid #e6e6e6;
+}
+.btn-group.custom-navigation button i,
+.btn-group.custom-navigation .btn i,
+.btn-group.custom-navigation button:focus i,
+.btn-group.custom-navigation .btn:focus i {
+  color: #ffb400;
+}
+.btn-group.custom-navigation button:hover,
+.btn-group.custom-navigation .btn:hover,
+.btn-group.custom-navigation button:focus:hover,
+.btn-group.custom-navigation .btn:focus:hover {
+  background-color: #fff;
+  border-color: transparent;
+}
+.btn-group.custom-navigation button:hover i,
+.btn-group.custom-navigation .btn:hover i,
+.btn-group.custom-navigation button:focus:hover i,
+.btn-group.custom-navigation .btn:focus:hover i {
+  color: white;
+}
+
+.btn-group.custom-navigations {
+  margin: 30px 0 13px;
+}
+.btn-group.custom-navigations button,
+.btn-group.custom-navigations .btn,
+.btn-group.custom-navigations button:focus,
+.btn-group.custom-navigations .btn:focus {
+  background-color: #240900;
+  border: 1px solid #240900;
+}
+.btn-group.custom-navigations button i,
+.btn-group.custom-navigations .btn i,
+.btn-group.custom-navigations button:focus i,
+.btn-group.custom-navigations .btn:focus i {
+  color: #FFF;
+}
+.btn-group.custom-navigations button:hover,
+.btn-group.custom-navigations .btn:hover,
+.btn-group.custom-navigations button:focus:hover,
+.btn-group.custom-navigations .btn:focus:hover {
+  background-color: #0c1014;
+  border-color: transparent;
+}
+.btn-group.custom-navigations button:hover i,
+.btn-group.custom-navigations .btn:hover i,
+.btn-group.custom-navigations button:focus:hover i,
+.btn-group.custom-navigations .btn:focus:hover i {
+  color: #fff;
+}
+
+.btn-group.with-heading {
+  position: relative;
+  width: 100%;
+}
+.btn-group.with-heading h3 {
+  margin-bottom: 0 !important;
+}
+.btn-group.with-heading button,
+.btn-group.with-heading .btn {
+  position: absolute;
+  top: 0;
+}
+.btn-group.with-heading button:last-of-type,
+.btn-group.with-heading .btn:last-of-type {
+  right: 0;
+}
+.btn-group.with-heading button:first-of-type,
+.btn-group.with-heading .btn:first-of-type {
+  right: 28px;
+}
+.btn-group.circle-navigation button,
+.btn-group.circle-navigation .btn,
+.btn-group.circle-navigation button:focus,
+.btn-group.circle-navigation .btn:focus {
+  border: 0;
+  -webkit-border-radius: 50% !important;
+  -moz-border-radius: 50% !important;
+  -ms-border-radius: 50% !important;
+  -o-border-radius: 50% !important;
+  border-radius: 50% !important;
+  padding: 3px 10px;
+}
+.btn-group.circle-navigation button i,
+.btn-group.circle-navigation .btn i,
+.btn-group.circle-navigation button:focus i,
+.btn-group.circle-navigation .btn:focus i {
+  font-size: 18px;
+  color: #fff;
+  position: relative;
+  top: 1px;
+}
+.btn-group.circle-navigation button:last-of-type i,
+.btn-group.circle-navigation .btn:last-of-type i {
+  right: -1px;
+}
+.btn-group.circle-navigation button:first-of-type i,
+.btn-group.circle-navigation .btn:first-of-type i {
+  left: -1px;
+}
+
+.btn-group.circle-navigations button,
+.btn-group.circle-navigations .btn,
+.btn-group.circle-navigations button:focus,
+.btn-group.circle-navigations .btn:focus {
+  border: 0;
+  -webkit-border-radius: 50% !important;
+  -moz-border-radius: 50% !important;
+  -ms-border-radius: 50% !important;
+  -o-border-radius: 50% !important;
+  border-radius: 50% !important;
+  padding: 2px 6px;
+}
+.btn-group.circle-navigations button i,
+.btn-group.circle-navigations .btn i,
+.btn-group.circle-navigations button:focus i,
+.btn-group.circle-navigations .btn:focus i {
+  font-size: 18px;
+  color: #fff;
+  position: relative;
+  top: 1px;
+}
+.btn-group.circle-navigations button:last-of-type i,
+.btn-group.circle-navigations .btn:last-of-type i {
+  right: 0px;
+}
+.btn-group.circle-navigations button:first-of-type i,
+.btn-group.circle-navigations .btn:first-of-type i {
+  left: 0px;
+}
+
+.results {
+    background: rgba(44, 76, 102, 0.35) !important; 
+    border-bottom: 1px #0080d8 solid; !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.slider #progressBar #bar {
+  background: #717171 !important;
+}
+
+.results-number {
+    color: #e3c45d !important;
+}
+
+thead th {
+    background: #323436;
+        background-color: rgb(50, 52, 54);
+        background-image: none;
+        background-repeat: repeat;
+        background-attachment: scroll;
+        background-clip: border-box;
+        background-origin: padding-box;
+        background-position-x: 0%;
+        background-position-y: 0%;
+        background-size: auto auto;
+    color: #fff;
+}
+
+.blog-sidebar .sidebar-nav {
+    width: 265px !important;
+}
+
+.nav {
+    padding-left: 20px !important;
+}
+
+.blog-sidebar .nav.menu > li > a {
+  border-bottom: 1px solid #323436 !important;
+    border-bottom-width: 1px !important;
+    border-bottom-style: solid !important;
+    border-bottom-color: rgb(0, 132, 220) !important;
+}
+.blog-sidebar .nav.menu > li > a > i {
+  color: #e3c45d !important;
+}
+.blog-sidebar .nav.menu > li > a:hover > i {
+   color: #316d857a !important;
+    background: -webkit-linear-gradient(#dbaf1d, #eddda8) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+}
+.blog-sidebar .nav.menu > li > a:hover, a:active, a:focus {
+  color: #FFF !important;
+  background: #316d857a !important;
+}
+
+.form-control {
+    color: #03A9F4 !important;
+}
+
+form .form-control {
+    background: #11111de6 !important;
+    border: 0.5px solid #0f1320 !important;
+}
+
+form .form-control:focus {
+	border-color: #4ec3d6  !important;
+}
+
+.scroll-top > a:hover {
+    background-color: #01304e !important;
+}
+
+
+.slider #progressBar #bar {
+  height: 0px !important;
+}
+
+a#highlight {
+    color: #fff;
+    animation: blur .9s ease-out infinite;
+    text-shadow: 0px 0px 1px #fff, 0px 0px 1px #fff;
+}
+
+@keyframes blur {
+    from {
+        text-shadow: 0px 0px 5px #fff, 0px 0px 5px #fff, 0px 0px 5px #fff, 0px 0px 5px #fff, 0px 0px 5px #fff, 0px 0px 5px #fff, 0px 0px 5px #fff, 0px 0px 25px #fff, 0px 0px 5px #fff, 0px 0px 5px #fff, 0px 0px 5px #7B96B8, 0px 0px 5px #7B96B8, 0px 10px 5px #7B96B8, 0px 10px 50px #7B96B8, 0px 10px 100px #7B96B8, 0px 10px 100px #7B96B8, 0px -10px 100px #7B96B8, 0px -10px 100px #7B96B8;
+    };
+}
