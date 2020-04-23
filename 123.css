@@ -1,11 +1,5 @@
-body {
-    background: # url('#') center center no-repeat !important;
-    background-position: top !important;
-    background-attachment: fixed !important;
-}
-
 .navbar-fixed-top {
-    background: rgba(23,32,71,0.5) !important;
+    background: #002122 !important;
     max-width: 1170px;
     margin: auto;
 }
@@ -15,7 +9,7 @@ body {
 }
 
 .news-body {
-    background: rgba(23,32,71,0.5) !important;
+    background: #f6e700 !important;
     border-bottom: 1px #0084dc solid;
     border-radius: 0px 0px 10px 0px;
 }
@@ -26,12 +20,12 @@ ul.newsticker > li > a {
 }
 
 .news-head {
-    background: rgba(23,32,71,0.5) !important;
-    border-bottom: 1px #0084dc solid;
+    background: #f6e700 !important;
+    border-bottom: 1px #ffffff solid;
     border-radius: 0px 0px 0px 10px;
 }
 
 .news-head > h5 {
   text-transform:  uppercase !important;
-  color: #8dfbff !important;
+  color: #ffffff !important;
 }
